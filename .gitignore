@@ -1,0 +1,31 @@
+# Python cache
+__pycache__/
+*.pyc
+
+# Virtual Environment
+Retail_Pyspark_env/
+venv/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Data files (IMPORTANT - do not push large data)
+data/raw/
+data/processed/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Spark warehouse
+spark-warehouse/
+
+# IDE
+.vscode/
+.idea/
+
+# Environment variables
+.env
